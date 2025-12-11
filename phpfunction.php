@@ -58,5 +58,14 @@
         echo "สตริงก่อนลบช่องว่างด้านหน้าและหลัง: '" . $str2 . "'<br>";
         echo "สตริงหลังลบช่องว่างด้านหน้าและหลัง: '" . trim($str2) . "'<br>";
     ?>
+    <?php myFooter("Khwanchai Suksaen");  //เรียกใช้ Function ?>
 </body>
 </html>
+<?php 
+    function myFooter($myname) {
+        echo "<footer><hr>";
+        echo "<p>PHP Built-in Function Example &copy; 2024</p>";
+        echo "<p>สร้างโดย: $myname</p>";
+        echo "</footer>";
+    }
+?>
